@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "TextbookManager",
+    "slug": "textbook-manager",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./src/assets/icons/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1A73E8"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bestday333.textbookmanager"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1A73E8"
+      },
+      "package": "com.bestday333.textbookmanager",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ]
+    }
+  }
+}
